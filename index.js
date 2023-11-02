@@ -4,8 +4,7 @@ const port=3001;
 const cors=require("cors");
 const axios=require("axios");
 require('dotenv').config();
-const rateLimit = require("express-rate-limit");
-
+const rateLimit=require("express-rate-limit")
 
 var corOptions={
     origin:'https://app.netlify.com/sites/shaikyoutubecloneserver',
