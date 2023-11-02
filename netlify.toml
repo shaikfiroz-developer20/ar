@@ -1,0 +1,4 @@
+[build]
+  command = "nodemon index.js"  # Replace with your server's start command
+  publish = "./"  # Replace with the path to your server code
+

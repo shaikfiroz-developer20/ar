@@ -8,7 +8,7 @@ const rateLimit = require("express-rate-limit");
 
 
 var corOptions={
-    origin:'http://localhost:3000',
+    origin:'https://youtubecloneservernodejs.netlify.app',
 
 }
 const api_key = process.env.api_key;
