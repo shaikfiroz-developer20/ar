@@ -7,7 +7,7 @@ require('dotenv').config();
 const rateLimit=require("express-rate-limit")
 
 var corOptions={
-    origin:'https://app.netlify.com/sites/shaikyoutubecloneserver',
+  origin: 'https://shaikclone.web.app'
 
 }
 const api_key = process.env.api_key;
